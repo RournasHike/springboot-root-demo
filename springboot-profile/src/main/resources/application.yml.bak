@@ -1,0 +1,54 @@
+#在一个配置文件中配置多种配置，启用配置模式时，可以在配置文件中设定，也可以在启动参数中设置 -D形式指定，如：-Dspring.profiles.active=pro
+#yml文件中配置的模式有dev、pro、test,如果profile不指定名称，表示默认default
+  #在yml配置文件中的内容都可以在参数中指定，启动参数的优先级高于配置文件
+acme:
+  enabled: true
+  #配置类是驼峰命名，而yml文件中是带有-命名的，这是有一种映射在起作用，这时属性注入注解的松散绑定
+  remote-address: 192.168.139.11
+  security:
+    username: java
+    password: 123
+    roles:
+      - admin
+      - tutor
+      - teacher
+spring:
+  profiles:
+    active: dev
+server:
+  port: 8083
+---
+acme:
+  enabled: true
+  #配置类是驼峰命名，而yml文件中是带有-命名的，这是有一种映射在起作用，这时属性注入注解的松散绑定
+  remote-address: 192.168.139.12
+  security:
+    username: java
+    password: 123
+    roles:
+      - admin
+      - tutor
+      - teacher
+spring:
+  profiles: dev
+
+server:
+  port: 8083
+
+---
+acme:
+  enabled: true
+  #配置类是驼峰命名，而yml文件中是带有-命名的，这是有一种映射在起作用，这时属性注入注解的松散绑定
+  remote-address: 192.168.139.13
+  security:
+    username: java
+    password: 123
+    roles:
+      - admin
+      - tutor
+      - teacher
+spring:
+  profiles: pro
+
+server:
+  port: 8083

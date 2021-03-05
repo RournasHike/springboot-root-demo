@@ -1,0 +1,119 @@
+{
+  "groups": [
+    {
+      "name": "user",
+      "type": "com.mytest.model.User",
+      "sourceType": "com.mytest.model.User"
+    },
+    {
+      "name": "yaml.level",
+      "type": "com.mytest.model.YamlModel",
+      "sourceType": "com.mytest.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.aperson",
+      "type": "com.mytest.model.APerson",
+      "sourceType": "com.mytest.model.APerson"
+    }
+  ],
+  "properties": [
+    {
+      "name": "user.name",
+      "type": "java.lang.String",
+      "sourceType": "com.mytest.model.User"
+    },
+    {
+      "name": "user.salary",
+      "type": "java.lang.Double",
+      "sourceType": "com.mytest.model.User"
+    },
+    {
+      "name": "yaml.level.aperson.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mytest.model.APerson"
+    },
+    {
+      "name": "yaml.level.aperson.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.mytest.model.APerson"
+    },
+    {
+      "name": "yaml.level.aperson.dog",
+      "type": "com.mytest.model.Dog",
+      "sourceType": "com.mytest.model.APerson"
+    },
+    {
+      "name": "yaml.level.aperson.happy",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.mytest.model.APerson"
+    },
+    {
+      "name": "yaml.level.aperson.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.mytest.model.APerson"
+    },
+    {
+      "name": "yaml.level.aperson.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.mytest.model.APerson"
+    },
+    {
+      "name": "yaml.level.aperson.name",
+      "type": "java.lang.String",
+      "sourceType": "com.mytest.model.APerson"
+    },
+    {
+      "name": "yaml.level.arr",
+      "type": "java.lang.Integer[]",
+      "sourceType": "com.mytest.model.YamlModel",
+      "defaultValue": []
+    },
+    {
+      "name": "yaml.level.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.mytest.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.dnum",
+      "type": "java.lang.Double",
+      "sourceType": "com.mytest.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mytest.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.map",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.mytest.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.num",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mytest.model.YamlModel",
+      "defaultValue": 0
+    },
+    {
+      "name": "yaml.level.set",
+      "type": "java.util.Set<java.lang.Integer>",
+      "sourceType": "com.mytest.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.special-str",
+      "type": "java.lang.String",
+      "sourceType": "com.mytest.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.str",
+      "type": "java.lang.String",
+      "sourceType": "com.mytest.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.users",
+      "type": "java.util.List<com.mytest.model.User>",
+      "sourceType": "com.mytest.model.YamlModel"
+    }
+  ],
+  "hints": []
+}

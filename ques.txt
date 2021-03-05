@@ -1,0 +1,14 @@
+springboot整合mybatis中类型别名的设置为什么没有用处？
+springboot整合druid-starter数据源中，datasource测试未通过，没有注入进来
+springboot如何打包成war包项目？
+
+hibernate和mybatis区别
+1、hibernate和mybatis都是jdbc的封装，hibernate是全自动的orm框架，使用的是面向对象的sql操作数据库，mybatis是半自动的orm框架，可以使用注解和xml的方式写sql
+2、hibernate的执行效率低于mybatis,因为hibernate的hql语句需要翻译成sql才可以执行，而mybatis数据库是直接执行sql的
+3、在处理实体类映射上，hibernate有多对多注解，mybatis没有；hibernate是将实体类和数据库表进行绑定，而mybatis是将实体类的属性和数据库表的字段进行绑定
+4、hibernate和mybatis的一级缓存是默认开启的，二级缓存需要进行配置
+
+jwt
+spring security
+shiro
+dubbo

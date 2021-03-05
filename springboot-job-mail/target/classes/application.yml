@@ -1,0 +1,13 @@
+server:
+  port: 8087
+spring:
+  mail:
+    username: 2057473561@qq.com
+    password: xfzhdhqxezkkcjff
+    host: smtp.qq.com
+    #开启加密验证
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true

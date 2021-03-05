@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>springboot-first</module>
+        <module>springboot-config</module>
+        <module>springboot-yaml</module>
+        <module>springboot-bind-prop</module>
+        <module>springboot-bind-constructor</module>
+        <module>springboot-bind-third-component</module>
+        <module>springboot-bind-ymlLooseBinding</module>
+        <module>springboot-bind-validation</module>
+        <module>springboot-profile</module>
+        <module>springboot-java-spi</module>
+        <module>springboot-webmvc</module>
+        <module>springboot-mybatis-tx_anno</module>
+        <module>springboot-mybatis-txconfig</module>
+        <module>springboot-datasource-druid</module>
+        <module>springboot-datasource-druidstarter</module>
+        <module>springboot-datasource-jdbc</module>
+        <module>springboot-swagger</module>
+        <module>springboot-job-async</module>
+        <module>springboot-job-mail</module>
+        <module>springboot-json-masscodes</module>
+        <module>springboot-dataJpa-entityToTable</module>
+        <module>springboot-tomcat-war</module>
+        <module>springboot-job-cronSchedule</module>
+        <module>springboot-i18n</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.2.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.mytest</groupId>
+    <artifactId>springboot-root</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+        </dependency>
+    </dependencies>
+
+</project>

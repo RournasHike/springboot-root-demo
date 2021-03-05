@@ -1,0 +1,70 @@
+{
+  "groups": [
+    {
+      "name": "acme",
+      "type": "com.mytest.model.AcmeProperties",
+      "sourceType": "com.mytest.model.AcmeProperties"
+    },
+    {
+      "name": "acme",
+      "type": "com.mytest.model.ThirdComponent",
+      "sourceType": "com.mytest.service.MyService",
+      "sourceMethod": "getThirdComponent()"
+    },
+    {
+      "name": "acme.my-person.person",
+      "type": "com.mytest.model.OwnerProperties",
+      "sourceType": "com.mytest.model.OwnerProperties"
+    },
+    {
+      "name": "acme.security",
+      "type": "com.mytest.model.AcmeProperties$Security",
+      "sourceType": "com.mytest.model.AcmeProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "acme.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.mytest.model.AcmeProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "acme.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.mytest.model.ThirdComponent",
+      "defaultValue": false
+    },
+    {
+      "name": "acme.my-person.person.first-name",
+      "type": "java.lang.String",
+      "sourceType": "com.mytest.model.OwnerProperties"
+    },
+    {
+      "name": "acme.remote-address",
+      "type": "java.net.InetAddress",
+      "sourceType": "com.mytest.model.AcmeProperties"
+    },
+    {
+      "name": "acme.remote-address",
+      "type": "java.net.InetAddress",
+      "sourceType": "com.mytest.model.ThirdComponent"
+    },
+    {
+      "name": "acme.security.password",
+      "type": "java.lang.String",
+      "sourceType": "com.mytest.model.AcmeProperties$Security"
+    },
+    {
+      "name": "acme.security.roles",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.mytest.model.AcmeProperties$Security"
+    },
+    {
+      "name": "acme.security.username",
+      "type": "java.lang.String",
+      "sourceType": "com.mytest.model.AcmeProperties$Security"
+    }
+  ],
+  "hints": []
+}

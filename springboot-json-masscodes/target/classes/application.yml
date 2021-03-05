@@ -1,0 +1,16 @@
+server:
+  port: 8082
+  tomcat:
+    uri-encoding: UTF-8
+  servlet:
+    encoding:
+      force: true
+      charset: utf-8
+      enabled: true
+#user:
+#  name: zhangsan
+#  salary: 3000.00
+dog:
+  name: 阿黄
+  age: 12
+  sex: 男

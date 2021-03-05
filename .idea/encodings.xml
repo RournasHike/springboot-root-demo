@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/springboot-bind-constructor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-bind-prop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-bind-third-component/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-bind-validation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-bind-ymlLooseBinding/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dataJpa-entityToTable/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-datasource-druid/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-datasource-druidstarter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-datasource-jdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-first/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-i18n/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-java-spi/ali-pay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-java-spi/main-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-java-spi/service-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-java-spi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-java-spi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-java-spi/wx-pay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-job-async/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-job-cronSchedule/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-job-mail/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-json-masscodes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatis-tx_anno/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatis-txconfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-profile/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-tomcat-war/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-webmvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-yaml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springboot-upload/springboot-thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springboot-upload/springboot-thymeleaf/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

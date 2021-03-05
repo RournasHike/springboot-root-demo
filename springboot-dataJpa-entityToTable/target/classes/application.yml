@@ -1,0 +1,17 @@
+server:
+  port: 8041
+
+spring:
+  application:
+    name: jpa-et
+  datasource:
+    name: test
+    url: jdbc:mysql://localhost:3306/jysgl?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

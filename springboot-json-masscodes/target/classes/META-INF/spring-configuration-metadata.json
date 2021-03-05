@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "dog",
+      "type": "com.mytest.model.Dog",
+      "sourceType": "com.mytest.model.Dog"
+    }
+  ],
+  "properties": [
+    {
+      "name": "dog.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mytest.model.Dog"
+    },
+    {
+      "name": "dog.name",
+      "type": "java.lang.String",
+      "sourceType": "com.mytest.model.Dog"
+    },
+    {
+      "name": "dog.sex",
+      "type": "java.lang.String",
+      "sourceType": "com.mytest.model.Dog"
+    }
+  ],
+  "hints": []
+}

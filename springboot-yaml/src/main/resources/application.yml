@@ -1,0 +1,51 @@
+#environments:
+#  dev:
+#    url: https://dev.example.com
+#    name: Developer Setup
+#  prod:
+#    url: https://another.example.com
+#    name: My Cool App
+# springboot读取配置文件配置的内容,注入到对应的实体bean中
+server:
+  port: 8081
+yaml:
+  level:
+    str: 字符串不\n加双引号 #字面值的话，特殊字符会转义
+    specialStr: "字符串不加\n双引号" #加双引号引号取消转义，单引号与不加一样的效果
+    num: 666
+    Dnum: 666.88
+    birth: 2000/12/10 12:23:34
+#    list:
+#      - one
+#      - two
+#      - three
+#    set:
+#      - 1
+#      - 2
+#      - 3
+#      - 4
+    list: [one,two,three]
+    set: [1,2,3,4,1]
+    arr: [1,2,3]
+    map: {key1: val1,key2: val2}
+    users:
+      - name: liuxuan
+        salary: 2000
+      - name: lisi
+        salary: 3000.0
+    aperson:
+      name: qinjiang${random.uuid} # 随机uuid
+      age: ${random.int}  # 随机int
+      happy: false
+      birth: 2000/01/01
+      maps: {k1: v1,k2: v2}
+      lists:
+        - code
+        - girl
+        - music
+      dog:
+        name: ${person.hello:other}_旺财
+        age: 1
+user:
+  name: lili
+  salary: 2000

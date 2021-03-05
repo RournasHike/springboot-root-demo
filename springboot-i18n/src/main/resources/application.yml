@@ -1,0 +1,5 @@
+server:
+  port: 8066
+spring:
+  messages:
+    basename: i18n.login

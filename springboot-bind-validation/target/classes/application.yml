@@ -1,0 +1,25 @@
+acme:
+  enabled: true
+  #配置类是驼峰命名，而yml文件中是带有-命名的，这是有一种映射在起作用，这时属性注入注解的松散绑定
+  remote-address: 192.168.139.11
+  security:
+    username: java
+    password: 123
+    roles:
+      - admin
+      - tutor
+      - teacher
+  my-person:  #前缀也可以支持松散绑定的，但是仅在配置文件中，在属性类中前缀不允许使用驼峰模式
+    person:
+      first-name: 亮哥  #kebab-case使用的是羊绒串模式，带-的
+
+
+    #      firstName: 亮哥
+
+      #松散绑定是非常教研非常弱的，换成支持的形式都可以 first_name,firstName,first-name（默认）
+      age: 30
+      email: liangge@qq.com
+      school:
+        school-name: "九江一中"
+server:
+  port: 8084

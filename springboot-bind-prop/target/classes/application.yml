@@ -1,0 +1,13 @@
+acme:
+  enabled: true
+  #配置类是驼峰命名，而yml文件中是带有-命名的，这时属性注入注解的松散耦合
+  remote-address: 192.168.139.11
+  security:
+    username: java
+    password: 123
+    roles:
+      - admin
+      - tutor
+      - teacher
+server:
+  port: 8083
